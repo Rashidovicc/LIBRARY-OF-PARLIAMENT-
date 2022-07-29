@@ -1,0 +1,17 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+    <PropertyGroup>
+        <TargetFramework>net5.0</TargetFramework>
+    </PropertyGroup>
+
+    <ItemGroup>
+    	<PackageReference Include="AutoMapper" Version="11.0.1" />
+    	<PackageReference Include="Npgsql.EntityFrameworkCore.PostgreSQL" Version="5.0.10" />
+    </ItemGroup>
+
+    <ItemGroup>
+      <ProjectReference Include="..\EFLibrary.Data\EFLibrary.Data.csproj" />
+      <ProjectReference Include="..\EFLibrary.Domain\EFLibrary.Domain.csproj" />
+    </ItemGroup>	
+
+</Project>
